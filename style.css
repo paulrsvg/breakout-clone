@@ -1,0 +1,20 @@
+/* CSS files add styling rules to your content */
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P'); */
+
+/* adding the font-face for use in canvas */
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v7/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2) format('woff2');
+}
+
+
+canvas {
+background: #5b5f97;
+display: block;
+margin: 0 auto;
+font-family: 'Press Start 2P', cursive;
+}
